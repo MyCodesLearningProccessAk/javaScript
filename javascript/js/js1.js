@@ -1,0 +1,11 @@
+console.time('Your Code Took:');
+console.log("hello");
+let innerText = "Hello  Youtoooooooobers";
+console.log(innerText);
+console.log([34,58,66,99,77]);
+console.log({harry:"this",rishi:"backlog"});
+console.table({harry:"this",rishi:"backlog"});
+console.warn("JDIET IS BAD VERY BAD");
+console.timeEnd('Your Code Took:');
+console.assert(8864,'Aage cant be more then 189');
+console.error('This is an error');

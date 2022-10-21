@@ -38,4 +38,4 @@ console.log(arr1);
 // 1) camelCase 
 // 2) kebab-case 
 // 3) snake_Case
-// 4) 
+// 4) PascalCase

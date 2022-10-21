@@ -25,29 +25,25 @@ console.log("Data Type is " + typeof nullVar);
 let undef = undefined;
 console.log("Data Type is " + typeof undef);
 
-
 // Refernce Data Types
 
-
 // Arrays
-let myArr = [1,2,3,4,5,6,7,8,9,"LOLOLOLOLOLOLOLOL",true,false]
-console.log(typeof(myArr));
+let myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, "LOLOLOLOLOLOLOLOL", true, false];
+console.log(typeof myArr);
 
 // Object literals
 let stMarks = {
-    Parry:34,
-    Qarry:38,
-    Sarry:36,
-    Tarry:35,
-    Uarry:34,
-    Varry: 90,
-}
+  Parry: 34,
+  Qarry: 38,
+  Sarry: 36,
+  Tarry: 35,
+  Uarry: 34,
+  Varry: 90,
+};
 console.log(stMarks);
 
-function findName(params) {
-    
-}
-console.log(typeof(findName));
+function findName(params) {}
+console.log(typeof findName);
 
 let date = new Date();
-console.log(typeof(date));
+console.log(typeof date);

@@ -8,6 +8,7 @@ a = document.forms;
 a = document.links[0];
 console.log(a);
 
+// Single element selector
 function getColorCOde(){
     let color = document.getElementById("color").value;
     document.getElementById("first").style.backgroundColor = color;
@@ -17,4 +18,17 @@ function getColorCOde(){
     document.getElementById("five").style.backgroundColor = color;
     console.log(color);
     // console.log(background);
+
+
+    document.querySelector("child");
+}
+
+// Multi element selector
+function getColorCode2(){
+    let color = document.getElementById("color").value;
+    let elems = document.getElementsByClassName('child');
+    for (const element of elems) {
+       // document.getElementById(elems[index].id).style.backgroundColor = color; //for loop
+        document.getElementById(element.id).style.backgroundColor = color;
+    }
 }
